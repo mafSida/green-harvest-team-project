@@ -17,10 +17,16 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  font-style: normal;
 }
 
 button {
   cursor: pointer;
+  box-shadow: none;
+}
+
+address {
+  font-style: normal;
 }
 
 img {
