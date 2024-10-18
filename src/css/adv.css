@@ -1,0 +1,69 @@
+/* ======Advertisement======= */
+
+.section.advert {
+    background-color: #fbfbfb;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.advert-title {
+    color: #141414;
+    max-width: 355px;
+}
+
+.advert-accent {
+     display: block;
+    color: #fbfbfb;
+    border-radius: 12px;
+    background-color: #576f35;
+    max-width: 355px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+.container.advert {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 0px;
+}
+
+.title-1 {
+    font-size: 64px;
+    line-height: 1.1;
+}
+
+.advert-accent {
+    max-width: 736px;
+}
+
+.advert-title {
+    max-width: 704px;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+
+.title-1 {
+    font-size: 76px;
+   
+}
+
+.advert-title {
+    max-width: 1054px;
+}
+
+.advert-accent {
+    max-width: 808px;
+}
+
+}
