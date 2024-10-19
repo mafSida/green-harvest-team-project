@@ -1,0 +1,131 @@
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.section-how {
+  padding: 0;
+}
+
+.container-how {
+  padding: 0;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-img {
+  padding: 40px 20px;
+  background-color: #7a3145;
+}
+
+.how-img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.how-img-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3));
+  border-radius: 30px;
+}
+
+.easy-steps {
+  padding: 80px 20px;
+}
+
+.cta-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.transparent-text {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.descr-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.steps-item {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  background-color: #fbfbfb;
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  height: 76px;
+}
+
+.bold {
+  font-weight: 700;
+  color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .how-img {
+    padding: 100px 64px;
+  }
+
+  .easy-steps {
+    padding: 100px 159px;
+  }
+
+  .cta-text {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .descr-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+
+  .steps-item {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-how {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .how-img {
+    padding: 100px 100px;
+    min-width: 50%;
+  }
+
+  .easy-steps {
+    padding: 100px 100px 160px 100px;
+  }
+}
