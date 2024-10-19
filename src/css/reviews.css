@@ -17,18 +17,13 @@
   display: none;
 }
 .review-list {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 18px;
   margin-top: 40px;
 }
 .review-item {
   max-width: 335px;
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
-  padding: 20px 16px;
+  padding: 20px 23.5px;
 }
 .review-list-avatar {
   display: block;
@@ -55,6 +50,7 @@
   .review-title {
     max-width: 553px;
   }
+
   .review-text {
     max-width: 553px;
     margin-top: 25px;
@@ -64,7 +60,13 @@
     display: block;
   }
   .review-list {
+    display: flex;
+    justify-content: space-between;
     margin-top: 50px;
+  }
+  .review-item {
+    max-width: 343px;
+    padding: 20px 27.5px;
   }
   .review-list-text {
     line-height: 1.4;
