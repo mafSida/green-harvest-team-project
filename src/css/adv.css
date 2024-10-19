@@ -4,7 +4,7 @@
     background-color: #fbfbfb;
 }
 
-.container {
+.container.advert {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
@@ -12,11 +12,12 @@
 
 .advert-title {
     color: #141414;
+    line-height: 1.04;
     max-width: 355px;
 }
 
 .advert-accent {
-     display: block;
+display: block;
     color: #fbfbfb;
     border-radius: 12px;
     background-color: #576f35;
@@ -29,12 +30,12 @@
 .container.advert {
     padding-right: 16px;
     padding-left: 16px;
-    padding-top: 0px;
+    max-width: 736px;
 }
 
-.title-1 {
+.title-first {
     font-size: 64px;
-    line-height: 1.1;
+    line-height: 1.09;
 }
 
 .advert-accent {
@@ -45,25 +46,28 @@
     max-width: 704px;
 }
 
-
-
 }
 
 
 @media screen and (min-width: 1280px) {
 
+.container.advert {
+    max-width: 1080px
+}
 
-.title-1 {
+.title-first {
     font-size: 76px;
-   
+   line-height: 1.05;
 }
 
 .advert-title {
     max-width: 1054px;
+    
 }
 
 .advert-accent {
     max-width: 808px;
+ display: inline-block;
 }
 
 }
