@@ -4,14 +4,22 @@
    
 }
 
-.header-logo-link { 
-        stroke: #ffffff; 
-}
-
 .header-container { 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo-link { 
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo-icon,
+.logo-name {
+  fill: #fbfbfb;
+  stroke: #fbfbfb;
 }
 
 .header-button,
