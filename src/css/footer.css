@@ -9,6 +9,9 @@
   justify-content: space-between;
 }
 
+.footer-wrap {
+max-width: 265px;
+}
 
 .icon-logo-project {
   color: #FBFBFB;
