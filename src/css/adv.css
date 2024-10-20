@@ -7,7 +7,6 @@
 .container.advert {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 3px;
 }
 
 .advert-title {
@@ -16,58 +15,91 @@
     max-width: 355px;
 }
 
-.advert-accent {
-display: block;
+.discount-accent {
+    display: block;
     color: #fbfbfb;
     border-radius: 12px;
     background-color: #576f35;
     max-width: 355px;
+    padding: 3px 10px;
+    padding-bottom: 0;
+    margin-bottom: 6px;
+}
+
+.taste-accent {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
 
+    .discount-accent {
+        margin-bottom: -6px;
+    }
 
-.container.advert {
-    padding-right: 16px;
-    padding-left: 16px;
-    max-width: 736px;
-}
+    .container.advert {
+        padding-right: 16px;
+        padding-left: 16px;
+        max-width: 786px;
+    }
 
-.title-first {
-    font-size: 64px;
-    line-height: 1.09;
-}
+    .title-first {
+        font-size: 64px;
+        line-height: 1.09;
+    }
 
-.advert-accent {
-    max-width: 736px;
-}
+    .discount-accent {
+        max-width: 736px;
+        padding: 8px 16px;
+    }
 
-.advert-title {
-    max-width: 704px;
-}
+    .taste-accent {
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+    }
 
+
+    .advert-title {
+        max-width: 736px;
+    }
 }
 
 
 @media screen and (min-width: 1280px) {
 
-.container.advert {
-    max-width: 1080px
-}
+    .container.advert {
+        max-width: 1080px;
+    }
 
-.title-first {
-    font-size: 76px;
-   line-height: 1.05;
-}
+    .title-first {
+        font-size: 76px;
+        line-height: 1.05;
+    }
 
-.advert-title {
-    max-width: 1054px;
-    
-}
+    .advert-title {
+        max-width: 1080px;
+        letter-spacing: -0.015em;
+    }
 
-.advert-accent {
-    max-width: 808px;
- display: inline-block;
-}
+    .discount-accent {
+        max-width: 100%;
+        display: inline;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        float: left;
 
+    }
+
+    .taste-accent {
+        display: block;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-bottom: 12px;
+    }
 }
