@@ -28,7 +28,7 @@
     height: 379px;
     background: #fbfbfb;
     box-shadow: none;
-    transition: transform 150ms ease, box-shadow 150ms ease;
+    transition: transform 250ms ease, box-shadow 250ms ease;
 
 }
 .vegetables-item:hover,.vegetables-item:focus{
