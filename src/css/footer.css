@@ -2,7 +2,10 @@
   background: #7A3145;
 }
 
-.footer .container {}
+.footer .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 
 .icon-logo-project {
