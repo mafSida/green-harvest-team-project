@@ -132,7 +132,7 @@
   text-transform: uppercase;
   color: #fbfbfb;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 150ms ease;
+    transform 250ms ease;
 }
 
 .form-order-btn:hover,
