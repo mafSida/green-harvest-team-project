@@ -39,9 +39,10 @@
   position: fixed;
   top: 0;
   right: 0;
-  background: #00000075;
+  background: rgba(20, 20, 20, 0.4);
   z-index: 100;
   opacity: 0;
+  visibility: hidden;
 }
 
 .menu-backdrop {
@@ -55,7 +56,7 @@
   background: #7a3145;
   /* opacity: 0;
   visibility: hidden; */
-  pointer-events: none;
+  /* pointer-events: none; */
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -63,7 +64,7 @@
 .menu-backdrop-wr.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: auto;
+  /* pointer-events: auto; */
 }
 
 .menu-button-close {
