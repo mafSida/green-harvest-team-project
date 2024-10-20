@@ -4,7 +4,7 @@
    
 }
 
-.header-container { 
+.header .container { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,15 +31,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
     background-color: transparent;
-    border: none;
-    cursor: pointer;
 }
 
 .burger-icon {
-  
+   stroke: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) { 
