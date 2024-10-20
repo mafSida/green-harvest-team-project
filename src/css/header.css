@@ -1,5 +1,6 @@
 .header-page { 
-    margin-top: 20px;
+   position: absolute;
+   top:20px;
    
 }
 
@@ -30,12 +31,12 @@
 }
 
 .burger-icon {
-  stroke: #fbfbfb;
+  
 }
 
 @media screen and (min-width: 768px) { 
     .header-page {
-            margin-top: 32px;
+            top: 30px;
         }
     
 }
@@ -53,6 +54,12 @@
     flex-direction: row;
     gap: 8px;
 }
+
+.header-logo,
+.header-logo-link { 
+    fill: #fbfbfb;
+    stroke: #fbfbfb;
+} 
 
 .header-logo {
     margin-right: 397px;
@@ -78,17 +85,27 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    text-align: center;
+   
 }
 
 .header-button {
+    background: #7a3145;
+}
+
+.header-button:hover { 
+    background-color: #622133;
+}
+
+.shop-btn-transform {
     display: block;
     border-radius: 30px;
     width: 157px;
     height: 52px;
-    background: #7a3145;
-    border: none;
     margin-left: 20px;
+    border: none;
 }
-    
+
+
+
+ 
 }
