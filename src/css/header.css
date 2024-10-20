@@ -30,9 +30,7 @@
     cursor: pointer;
 }
 
-.burger-icon {
-  
-}
+
 
 @media screen and (min-width: 768px) { 
     .header-page {
@@ -49,9 +47,6 @@
 
 .header-menu {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 8px;
 }
 
@@ -62,7 +57,7 @@
 } 
 
 .header-logo {
-    margin-right: 397px;
+    margin-right: auto;
 }
 
 .header-link {
@@ -104,8 +99,4 @@
     margin-left: 20px;
     border: none;
 }
-
-
-
- 
 }
