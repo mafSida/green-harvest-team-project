@@ -62,15 +62,10 @@
 
 .header-menu {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     gap: 8px;
 }
-
-logo-link { 
-    margin-right: auto;
-} 
 
 .header-link {
     border: 1px solid rgba(251, 251, 251, 0.4);
@@ -99,7 +94,7 @@ logo-link {
     background: #7a3145;
 }
 
-.header-button:hover { 
+.header-button:hover, .header-button:focus { 
     background-color: #622133;
 }
 
