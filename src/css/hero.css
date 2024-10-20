@@ -1,0 +1,121 @@
+.hero-content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+.hero-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fbfbfb;
+}
+
+
+
+
+.hero-background-image {
+    height: 370px;
+    max-width:  100%;
+    background-image: url(/img/hero/hero-bg-mob.jpg);
+    background-repeat: no-repeat;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
+
+@media screen and (min-width:375px){
+    .hero-background-image{
+        max-width:  375px;
+    }
+}
+
+@media screen and (min-resolution:192dpi){
+    .hero-background-image {
+        background-image: url(/img/hero/hero-bg-mobile@2x.jpg);
+    }
+}
+
+@media screen and (min-width:768px){
+    .hero-background-image{
+        max-width:  768px;
+        height: 539px;
+        background-image: url(/img/hero/hero-bg-tab.jpg);
+    }
+
+    .hero-content {
+        padding-top: 238px;
+    }
+
+    .hero-title {
+        font-size: 76px;
+        margin-bottom: 25px;
+    }
+    .hero-text {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 603px;
+    }
+}
+
+@media screen and (min-width:768px) and (min-resolution:192dpi){
+    .hero-background-image{
+        background-image: url(/img/hero/hero-bg-tablet@2x.jpg);
+    }
+}
+
+@media screen and (min-width:1280px){
+    .hero-section{
+        display: flex;
+        flex-direction: row;
+        padding-left: 100px;
+        justify-content: center;
+
+    }
+
+    .hero-container{
+        padding: 0;
+        margin: 0px;
+        margin-right: 38px;
+    } 
+
+    .hero-content{
+        max-width: 529px;
+    }
+
+    .hero-background-image{
+        flex-grow: 1;
+        margin: 0;
+        max-width:  650px;
+        height: 800px;
+        background-image: url(/img/hero/hero-bg.jpg);
+    }
+
+    .hero-title{
+        margin-bottom: 128px;
+        width: 502px;
+    }
+
+    .hero-text{
+        max-width: 472px;
+    }
+}
+
+@media screen and (min-width:1280px) and (min-resolution:192dpi){
+    .hero-background-image{
+        background-image: url(../img/hero/hero-bg-desktop@2x.jpg);
+    }
+}
