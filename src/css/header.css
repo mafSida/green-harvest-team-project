@@ -16,6 +16,12 @@
   gap: 4px;
 }
 
+.logo-icon,
+.logo-name {
+  fill: #fbfbfb;
+  stroke: #fbfbfb;
+}
+
 .header-button,
 .header-menu { 
     display: none;
