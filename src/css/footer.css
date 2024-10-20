@@ -1,9 +1,10 @@
-.footer-box {
+.footer {
   background: #7A3145;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
 }
+
+.footer .container {}
+
+
 .icon-logo-project {
   color: #FBFBFB;
 }
