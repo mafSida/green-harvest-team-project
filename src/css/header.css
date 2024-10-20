@@ -46,9 +46,13 @@
 }
 
 @media screen and (min-width: 1280px) { 
-    .burger-btn { 
+.burger-btn { 
         display: none;
     }
+
+.logo-link {
+    margin-right: auto;
+  }
 
 .header-nav {
   display: flex;
