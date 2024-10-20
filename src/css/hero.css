@@ -1,6 +1,19 @@
+.hero-section{
+    
+    min-height: 100vh;
+    max-width:  100%;
+    background-image: url(/img/hero/hero-bg-mob.jpg);
+    background-repeat: no-repeat;
+
+
+
+    background-position: center bottom;
+
+}
+
 .hero-content {
     padding-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 410px;
 }
 
 .hero-title {
@@ -13,6 +26,7 @@
     margin-bottom: 20px;
 }
 .hero-text {
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
@@ -22,7 +36,7 @@
 
 
 
-.hero-background-image {
+/* .hero-background-image {
     height: 370px;
     max-width:  100%;
     background-image: url(/img/hero/hero-bg-mob.jpg);
@@ -35,13 +49,8 @@
     background-position: center;
     background-size: cover;
 
-} 
+}  */
 
-@media screen and (min-width:375px){
-    .hero-background-image{
-        max-width:  375px;
-    }
-}
 
 @media screen and (min-resolution:192dpi){
     .hero-background-image {
@@ -50,14 +59,13 @@
 }
 
 @media screen and (min-width:768px){
-    .hero-background-image{
-        max-width:  768px;
-        height: 539px;
+    .hero-section{
         background-image: url(/img/hero/hero-bg-tab.jpg);
     }
-
+    
     .hero-content {
-        padding-top: 238px;
+        padding-top: 122px;
+        padding-bottom: 589px;
     }
 
     .hero-title {
@@ -78,32 +86,32 @@
 }
 
 @media screen and (min-width:1280px){
-    .hero-section{
-        display: flex;
-        flex-direction: row;
+    .hero-container{
         padding-left: 100px;
-        justify-content: center;
-
+        padding-right: 28px;
+        
+        
     }
 
-    .hero-container{
-        padding: 0;
-        margin: 0px;
-        margin-right: 38px;
-    } 
+    .hero-section{
+        /* min-height: 100vh;
+        max-width:  50%; */
+        background-image: url(/img/hero/hero-bg.jpg);
+
+        background-position: right;
+        background-size: 50%;
+        height: 100vh;
+        
+    }
 
     .hero-content{
-        max-width: 529px;
+        padding: 0;
+        padding-bottom: 50px;
+        max-width: 502px;
     }
 
-    .hero-background-image{
-        flex-grow: 1;
-        margin: 0;
-        max-width:  650px;
-        height: 800px;
-        background-image: url(/img/hero/hero-bg.jpg);
-    }
 
+    
     .hero-title{
         margin-bottom: 128px;
         width: 502px;
@@ -111,11 +119,7 @@
 
     .hero-text{
         max-width: 472px;
-    }
+    } 
+
 }
 
-@media screen and (min-width:1280px) and (min-resolution:192dpi){
-    .hero-background-image{
-        background-image: url(../img/hero/hero-bg-desktop@2x.jpg);
-    }
-}
