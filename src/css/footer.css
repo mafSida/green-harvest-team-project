@@ -1,7 +1,3 @@
-.footer-box {
-  background: #7a3145;
-  padding: 40px 20px;
-}
 .footer {
   background: #7a3145;
 }
@@ -11,6 +7,7 @@
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+   flex-direction: column;
 }
 
 .footer-wrap {
@@ -20,18 +17,7 @@
 .footer-wrap .logo-link {
   margin-bottom: 26px;
 }
-.icon-logo-project {
-  color: #fbfbfb;
-}
-.logo-f-text {
-  color: #fbfbfb;
-}
-.logo-footer {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  align-items: center;
-}
+
 .footer-text {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
