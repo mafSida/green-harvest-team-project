@@ -1,7 +1,6 @@
 .header-page {
   position: absolute;
   top: 20px;
-
 }
 
 .header .container {
@@ -22,20 +21,22 @@
   stroke: #fbfbfb;
 }
 
+
 .shop-btn-header,
 .header-nav {
   display: none;
 }
 
 .burger-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
 }
 
-.burger-btn:hover, .burger-btn:focus { 
+.burger-btn:hover,
+.burger-btn:focus {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   outline: none;
   background-color: rgba(255, 255, 255, 0.1);
@@ -59,7 +60,6 @@
   .header-page {
     top: 30px;
   }
-
   .logo-icon {
     width: 18px;
     height: 18px;
@@ -111,10 +111,9 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-}
-  
+  }
 
-  .header-link { 
+  .header-link {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
     padding: 12px;
@@ -126,32 +125,30 @@
     text-align: center;
     color: #fbfbfb;
   }
-  
+
+    
 .header-item:focus, 
 .header-item:hover { 
   outline: none;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-  
 
-
-    .shop-btn {
+  .shop-btn {
     display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-      gap: 10px;
-      border: 1px solid rgba(251, 251, 251, 0.2);
-        border-radius: 30px;
-        width: 155px;
-        height: 50px;
-      margin-left: 20px;
-    }
-  
-  
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 16px 32px;
+    min-width: 157px;
+    height: 52px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+
   .shop-btn-header {
-  font-weight: 600;
+    font-weight: 600;
     font-size: 18px;
     line-height: 1.11111;
     letter-spacing: -0.01em;
@@ -159,24 +156,27 @@
     color: #fbfbfb;
     background-color: #7a3145;;
     text-align: center;
-    
+    border: none;
+    margin-left: 20px;
+    background: #7a3145;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      transform 250ms ease;
   }
-  
   
   .shop-btn-header:hover, .shop-btn-header:focus { 
     background-color: #622133;
-}
-  
+  }
+
   .shop-btn-header:active { 
   background-color: #632536;
   transform: scale(0.95);
     transition: transform 250ms ease;
 }
 }
-  
+
 /* MOBILE MENU */
-  
-  .menu-backdrop-wr {
+
+.menu-backdrop-wr {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -187,8 +187,8 @@
   opacity: 0;
   visibility: hidden;
 }
-  
-  .menu-backdrop {
+
+.menu-backdrop {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -197,9 +197,6 @@
   height: 100%;
   z-index: 9999;
   background: #7a3145;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -207,7 +204,6 @@
 .menu-backdrop-wr.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: auto;
 }
 
 .menu-button-close {
@@ -227,6 +223,11 @@
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-button-close-svg {
+  width: 32px;
+  height: 32px;
 }
 
 .menu-wrapper {
@@ -297,14 +298,14 @@
   color: #ffffff;
   border: 1px solid rgba(251, 251, 251, 0.2);
 }
-  
-  /* Menu Tablet */
-  
+
+/* Menu Tablet */
+
 @media screen and (min-width: 768px) {
   .header-page {
     margin-top: 32px;
   }
-  
+
   .menu-backdrop {
     right: 0;
     width: 351px;
@@ -336,11 +337,18 @@
     height: 44px;
   }
 
+  .menu-btn-shop {
+    width: 157px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 50px;
+    padding: 16px 32px;
+  }
 }
-  
-  @media screen and (min-width: 1280px) {
-  
+
+@media screen and (min-width: 1280px) {
   .menu-backdrop {
     display: none;
   }
-  }
+}
