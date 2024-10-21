@@ -22,7 +22,7 @@
   stroke: #fbfbfb;
 }
 
-.header-button,
+.shop-btn-header,
 .header-nav {
   display: none;
 }
@@ -134,74 +134,43 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
-.shop-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    padding: 16px 32px;
-    min-width: 157px;
-    height: 52px;
-  }
 
-  .header-link-btn {
-    font-weight: 600;
+
+    .shop-btn {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 10px;
+      border: 1px solid rgba(251, 251, 251, 0.2);
+        border-radius: 30px;
+        width: 155px;
+        height: 50px;
+      margin-left: 20px;
+    }
+  
+  
+  .shop-btn-header {
+  font-weight: 600;
     font-size: 18px;
     line-height: 1.11111;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-
-  }
-
-    .header-button {
-      background-color: #7a3145;
-      margin-left: 20px;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .header-button:active {
-      background-color: #632536;
-      transform: scale(0.95);
-      transition: transform 250ms ease;
-    }
-
-
-    .header-button:hover,
-    .header-button:focus {
-      background-color: #622133;
-    }
-
-    .shop-btn-transform {
-      display: block;
-      border-radius: 30px;
-      width: 157px;
-      height: 52px;
-      margin-left: 20px;
-      border: none;
-    }
-  }
-  }
-  
-  .header-shop-btn {
-    font-size: 18px;
-    line-height: 1.11;
-    color: #fbfbfb;
+    background-color: #7a3145;;
     text-align: center;
-    border: none;
-    margin-left: 20px;
-    background: #7a3145;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms ease;
+    
   }
   
   
-  .header-shop-button:hover, .header-button:focus { 
+  .shop-btn-header:hover, .shop-btn-header:focus { 
     background-color: #622133;
 }
   
-  .header-shop-button:active { 
+  .shop-btn-header:active { 
   background-color: #632536;
   transform: scale(0.95);
+    transition: transform 250ms ease;
 }
 }
   
