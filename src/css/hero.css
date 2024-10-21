@@ -1,14 +1,9 @@
 .hero-section{
-    
     min-height: 100vh;
     max-width:  100%;
     background-image: url(/img/hero/hero-bg-mob.jpg);
     background-repeat: no-repeat;
-
-
-
     background-position: center bottom;
-
 }
 
 .hero-content {
