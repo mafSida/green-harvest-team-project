@@ -65,8 +65,14 @@
     margin-top: 50px;
   }
   .review-item {
-    max-width: 343px;
-    padding: 20px 27.5px;
+    width: calc((100% - 18px) / 2);
+    padding: 20px 23px;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+    transform: scale(1.05);
+  }
+  .review-item:hover,
+  .review-item:focus {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   }
   .review-list-text {
     line-height: 1.4;
