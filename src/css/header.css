@@ -1,6 +1,9 @@
-.header-page {
+.header {
   position: absolute;
   top: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .header .container {
@@ -13,6 +16,9 @@
   display: flex;
   align-items: center;
   gap: 4px;
+  font-size: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .logo-icon,
@@ -20,7 +26,6 @@
   fill: #fbfbfb;
   stroke: #fbfbfb;
 }
-
 
 .shop-btn-header,
 .header-nav {
@@ -57,9 +62,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-page {
+  .header {
     top: 30px;
   }
+
   .logo-icon {
     width: 18px;
     height: 18px;
@@ -113,6 +119,7 @@
     gap: 8px;
   }
 
+
   .header-link {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
@@ -126,26 +133,27 @@
     color: #fbfbfb;
   }
 
-    
-.header-item:focus, 
-.header-item:hover { 
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  .header-item:focus,
+  .header-item:hover {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
 
   .shop-btn {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
     border-radius: 30px;
-    padding: 16px 32px;
-    min-width: 157px;
-    height: 52px;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
+    width: 155px;
+    height: 50px;
+    margin-left: 20px;
   }
+
 
   .shop-btn-header {
     font-weight: 600;
@@ -154,26 +162,24 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    background-color: #7a3145;;
+    background-color: #7a3145;
+    ;
     text-align: center;
-    border: none;
-    margin-left: 20px;
-    background: #7a3145;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      transform 250ms ease;
+
   }
-  
-  .shop-btn-header:hover, .shop-btn-header:focus { 
+
+
+  .shop-btn-header:hover,
+  .shop-btn-header:focus {
     background-color: #622133;
   }
 
-  .shop-btn-header:active { 
-  background-color: #632536;
-  transform: scale(0.95);
+  .shop-btn-header:active {
+    background-color: #632536;
+    transform: scale(0.95);
     transition: transform 250ms ease;
+  }
 }
-}
-
 /* MOBILE MENU */
 
 .menu-backdrop-wr {
