@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script type="module" crossorigin src="/green-harvest-team-project/index.js"></script>
     <link rel="stylesheet" crossorigin href="/green-harvest-team-project/assets/index-CBL2BM3f.css">
   </head>
@@ -95,7 +96,7 @@
       <section class="section-how section" id="hiw-link">
   <h2 class="visually-hidden">Easy steps</h2>
   <div class="container container-how">
-    <div class="how-img">
+    <div class="how-img" data-aos="fade-right" data-aos-duration="1000">
       <div class="how-img-container">
         <picture>
           <source
@@ -121,7 +122,7 @@
         </picture>
       </div>
     </div>
-    <div class="easy-steps">
+    <div class="easy-steps" data-aos="fade-left" data-aos-duration="1000">
       <p class="cta-text">
         To order your <span class="transparent-text">vegetable</span> basket,
         simply follow these <span class="transparent-text">easy steps</span>
@@ -159,27 +160,32 @@
       <!-- =====Advertisement======= -->
 
 <section class="section advert">
-    <div class="container advert">
-        <h2 class="visually-hidden">Advertisement</h2>
-        <p class="title-first advert-title">
-            <span class="discount-accent">Discount up to 40%!</span>
-            <span class="taste-accent">Taste the vitamins and keep your health</span>
-        </p>
-    </div>
+  <div class="container advert" data-aos="fade-down" data-aos-duration="1000">
+    <h2 class="visually-hidden">Advertisement</h2>
+    <p class="title-first advert-title">
+      <span class="discount-accent">Discount up to 40%!</span>
+      <span class="taste-accent">Taste the vitamins and keep your health</span>
+    </p>
+  </div>
 </section>
+
       <!--  Yuliia Sheremeta  -->
       <section class="section section-vegetables" id="vegetables">
   <div class="container">
-    <h2 class="title-second vegetables-title">
+    <h2
+      class="title-second vegetables-title"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       organic
       <span class="vegetables-title-shadow"> vegetables</span>
     </h2>
-    <p class="vegetables-text">
+    <p class="vegetables-text" data-aos="fade-up" data-aos-duration="1000">
       Our organic vegetables are hand-picked from local farms and delivered
       straight to your doorstep, ensuring that you get the freshest and most
       nutritious produce possible.
     </p>
-    <ul class="vegetables-list">
+    <ul class="vegetables-list" data-aos="fade-left" data-aos-duration="1000">
       <li class="vegetables-item">
         <h3 class="vegetables-name">eggplant</h3>
         <p class="vegetables-price">60 USD / kg</p>
@@ -259,14 +265,18 @@
       <!--  Анна Войс  -->
       <section class="review section" id="review">
   <div class="container">
-    <h2 class="review-title title-second">
+    <h2
+      class="review-title title-second"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       Reviews from our <span class="accent-color">Customers</span>
     </h2>
-    <p class="review-text">
+    <p class="review-text" data-aos="fade-up" data-aos-duration="1000">
       Words of our customers: impressions and opinions about the quality of our
       services and the freshness of our products.
     </p>
-    <ul class="review-list">
+    <ul class="review-list" data-aos="fade-right" data-aos-duration="1000">
       <li class="review-item">
         <img
           class="review-list-avatar"
@@ -446,13 +456,6 @@
       </div>
     </div>
   </div>
-  <!-- Scripts and css | START -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <!-- Scripts and css | END -->
 </section>
 
     </main>
@@ -521,5 +524,12 @@
 
     <!-- Matveeva Oleksandra -->
     <script type="" src="./menu.js"></script>
+
+    <!-- Scroll animation script START -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Scroll animation script END -->
   </body>
 </html>
