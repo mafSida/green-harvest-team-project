@@ -1,12 +1,8 @@
 .hero-section{
-    
     min-height: 100vh;
     max-width:  100%;
-    background-image: url(/img/hero/hero-bg-mob.jpg);
+    background-image: url(/img/hero/hero-img-mobile-black.jpg);
     background-repeat: no-repeat;
-
-
-
     background-position: center bottom;
 
 }
@@ -36,31 +32,19 @@
 
 
 
-/* .hero-background-image {
-    height: 370px;
-    max-width:  100%;
-    background-image: url(/img/hero/hero-bg-mob.jpg);
-    background-repeat: no-repeat;
-
-
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}  */
-
-
 @media screen and (min-resolution:192dpi){
-    .hero-background-image {
-        background-image: url(/img/hero/hero-bg-mobile@2x.jpg);
+    .hero-section {
+        
+        background-image: url(/img/hero/hero-img-mobile-black@2x.jpg);
+        background-size: 375px 370px;
+        
     }
 }
 
 @media screen and (min-width:768px){
     .hero-section{
-        background-image: url(/img/hero/hero-bg-tab.jpg);
+        background-image: url(/img/hero/hero-img-tablet-black.jpg);
+        background-size: 768px 539px;
     }
     
     .hero-content {
@@ -80,34 +64,39 @@
 }
 
 @media screen and (min-width:768px) and (min-resolution:192dpi){
-    .hero-background-image{
-        background-image: url(/img/hero/hero-bg-tablet@2x.jpg);
+    .hero-section{
+        background-image: url(/img/hero/hero-img-tablet-black@2x.jpg);
     }
 }
 
 @media screen and (min-width:1280px){
-    .hero-container{
-        padding-left: 100px;
-        padding-right: 28px;
-        
-        
-    }
-
     .hero-section{
         /* min-height: 100vh;
         max-width:  50%; */
-        background-image: url(/img/hero/hero-bg.jpg);
-
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center; 
+        background-image: url(../img/hero/hero-img-laptop-black.jpg);
         background-position: right;
-        background-size: 50%;
-        height: 100vh;
+        background-size:  50% 100%;
+        min-height: 100vh;
         
+        
+    }
+    
+    .hero-container{
+        padding: 0;
+        padding-right: 28px; 
+        padding-left: 100px;
+        margin: 0;
+        max-width: 502px;  
     }
 
     .hero-content{
         padding: 0;
         padding-bottom: 50px;
-        max-width: 502px;
+        min-width: 502px;
     }
 
 
@@ -122,4 +111,8 @@
     } 
 
 }
-
+@media screen and (min-width:1280px) and (min-resolution:192dpi){
+    .hero-section{
+        background-image: url(../img/hero/hero-img-laptop-black@2x.jpg);
+    }
+}
