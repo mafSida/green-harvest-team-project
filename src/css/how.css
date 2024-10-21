@@ -86,6 +86,12 @@ ol {
   padding: 12px 27px 12px 24px;
   height: 76px;
   counter-increment: item;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.steps-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .bold {
@@ -168,7 +174,7 @@ ol {
 
   .how-img {
     padding: 100px 100px;
-    min-width: 50%;
+    min-width: 630px;
   }
 
   .easy-steps {
