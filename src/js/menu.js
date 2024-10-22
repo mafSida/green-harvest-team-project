@@ -6,6 +6,9 @@
     closeMenuBtn: document.querySelector('[data-menu-close]'),
     // Додати атрибут data-menu на бекдроп модалки
     modal: document.querySelector('[data-menu]'),
+    // Закриття модалки при натисканні на будь яке якірне посилання
+    menuLinks: document.querySelectorAll('.menu-link'),
+    shopButton: document.querySelector('.menu-btn-shop'),
   };
 
   // refs.openMenuBtn.addEventListener('click', toggleModal);
@@ -23,4 +26,16 @@
   refs.closeMenuBtn.addEventListener('click', () => {
     refs.modal.classList.remove('is-open');
   });
+
+  refs.menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      refs.modal.classList.remove('is-open');
+    });
+  });
+  
+  refs.shopButton.addEventListener('click', () => {
+      refs.modal.classList.remove('is-open');
+    });
+
+
 })();
