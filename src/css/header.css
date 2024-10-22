@@ -224,10 +224,10 @@
   height: 32px;
 }
 
-.menu-wrapper {
+/* .menu-wrapper {
   display: block;
   align-items: center;
-}
+} */
 .menu-list {
   display: flex;
   flex-direction: column;
@@ -267,7 +267,6 @@
   border-radius: 30px;
   border: none;
   padding: 16px 41px;
-  margin-bottom: 40px;
   width: 155px;
   height: 50px;
   background: #fbfbfb;
