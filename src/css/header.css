@@ -229,6 +229,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 240px;
+  margin-bottom: auto;
 }
 
 .menu-item:not(:last-child) {
