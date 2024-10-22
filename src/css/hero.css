@@ -2,7 +2,7 @@
 
 .hero-section{
     max-width:  100%;
-    background-image: url(/img/hero/hero-img-mobile-black.jpg);
+    background-image: url(/img/hero/hero-img-mobile-black.webp);
     background-size: 375px 370px; 
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -21,7 +21,7 @@
 
 @media screen and (min-resolution:192dpi){
     .hero-section { 
-        background-image: url(/img/hero/hero-img-mobile-black@2x.jpg);
+        background-image: url(../img/hero/hero-img-mobile-black@2x.webp);
     }
 }
 
@@ -33,7 +33,7 @@
 
 @media screen and (min-width:768px){
     .hero-section{
-        background-image: url(/img/hero/hero-img-tablet-black.jpg);
+        background-image: url(/img/hero/hero-img-tablet-black.webp);
         background-size: 768px 539px;
         padding-top: 122px;
         padding-bottom: 589px;
@@ -50,7 +50,7 @@
 
 @media screen and (min-width:768px) and (min-resolution:192dpi){
     .hero-section{
-        background-image: url(/img/hero/hero-img-tablet-black@2x.jpg);
+        background-image: url(/img/hero/hero-img-tablet-black@2x.webp);
     }
 }
 
@@ -63,7 +63,7 @@
 
     
     .hero-section{
-        background-image: url(/img/hero/hero-img-laptop-black.jpg);
+        background-image: url(/img/hero/hero-img-laptop-black.webp);
         background-size: 650px 800px;
         background-position: right;
         max-width: 1280px;
@@ -86,6 +86,6 @@
 
 @media screen and (min-width:1280px) and (min-resolution:192dpi){
     .hero-section{
-        background-image: url(/img/hero/hero-img-laptop-black@2x.jpg);
+        background-image: url(/img/hero/hero-img-laptop-black@2x.webp);
     }
 } 
