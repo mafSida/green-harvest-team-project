@@ -1,7 +1,7 @@
-<section class="section-how section" id="hiw-link">
+<section class="section-how section" id="how-link">
   <h2 class="visually-hidden">Easy steps</h2>
   <div class="container container-how">
-    <div class="how-img">
+    <div class="how-img" data-aos="fade-right" data-aos-duration="1000">
       <div class="how-img-container">
         <picture>
           <source
@@ -16,18 +16,19 @@
             srcset="/img/how/HowMob.webp 1x, /img/how/HowMob@2x.webp 2x"
             media="(max-width: 767px)"
           />
-
+          <!-- Додано lazy loading -->
           <img
             class="how-img-mob"
             src="/img/how/HowMob.webp"
             alt="Woman cooking vegetables"
-            width="100%"
-            height="100%"
+            width="335"
+            height="450"
+            loading="lazy"
           />
         </picture>
       </div>
     </div>
-    <div class="easy-steps">
+    <div class="easy-steps" data-aos="fade-left" data-aos-duration="1000">
       <p class="cta-text">
         To order your <span class="transparent-text">vegetable</span> basket,
         simply follow these <span class="transparent-text">easy steps</span>
@@ -60,3 +61,4 @@
     </div>
   </div>
 </section>
+
