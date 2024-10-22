@@ -226,6 +226,7 @@
   align-items: center;
   padding-top: 240px;
   padding-bottom: 40px;
+  height: 100vh;
 }
 .menu-list {
   display: flex;
