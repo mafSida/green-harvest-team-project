@@ -224,6 +224,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-top: 240px;
+  padding-bottom: 40px;
 }
 .menu-list {
   display: flex;
