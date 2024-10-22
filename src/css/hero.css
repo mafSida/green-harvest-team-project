@@ -1,13 +1,11 @@
+/* ================= MOBILE ================= */
+
 .hero-section{
-    min-height: 100vh;
     max-width:  100%;
     background-image: url(/img/hero/hero-img-mobile-black.jpg);
+    background-size: 375px 370px; 
     background-repeat: no-repeat;
     background-position: center bottom;
-
-}
-
-.hero-content {
     padding-top: 100px;
     padding-bottom: 410px;
 }
@@ -18,36 +16,25 @@
     line-height: 1;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    color: #fbfbfb;
     margin-bottom: 20px;
 }
-.hero-text {
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    color: #fbfbfb;
-}
-
-
-
 
 @media screen and (min-resolution:192dpi){
-    .hero-section {
-        
+    .hero-section { 
         background-image: url(/img/hero/hero-img-mobile-black@2x.jpg);
-        background-size: 375px 370px;
-        
     }
 }
+
+/* ================= /MOBILE ================= */
+
+
+/* ================= TABLET ================= */
+
 
 @media screen and (min-width:768px){
     .hero-section{
         background-image: url(/img/hero/hero-img-tablet-black.jpg);
         background-size: 768px 539px;
-    }
-    
-    .hero-content {
         padding-top: 122px;
         padding-bottom: 589px;
     }
@@ -57,8 +44,6 @@
         margin-bottom: 25px;
     }
     .hero-text {
-        font-size: 16px;
-        line-height: 1.25;
         max-width: 603px;
     }
 }
@@ -69,41 +54,28 @@
     }
 }
 
+/* ================= /TABLET ================= */
+
+
+/* ================= DESKTOP ================= */
+
 @media screen and (min-width:1280px){
+
+    
     .hero-section{
-        /* min-height: 100vh;
-        max-width:  50%; */
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center; 
-        background-image: url(../img/hero/hero-img-laptop-black.jpg);
+        background-image: url(/img/hero/hero-img-laptop-black.jpg);
+        background-size: 650px 800px;
         background-position: right;
-        background-size:  50% 100%;
-        min-height: 100vh;
+        max-width: 1280px;
         
-        
-    }
-    
-    .hero-container{
-        padding: 0;
-        padding-right: 28px; 
-        padding-left: 100px;
-        margin: 0;
-        max-width: 502px;  
-    }
-
-    .hero-content{
-        padding: 0;
+        padding-top: 238px;
         padding-bottom: 50px;
-        min-width: 502px;
+        margin: 0 auto;
     }
 
-
-    
     .hero-title{
         margin-bottom: 128px;
-        width: 502px;
+        max-width: 502px;
     }
 
     .hero-text{
@@ -111,8 +83,9 @@
     } 
 
 }
+
 @media screen and (min-width:1280px) and (min-resolution:192dpi){
     .hero-section{
-        background-image: url(../img/hero/hero-img-laptop-black@2x.jpg);
+        background-image: url(/img/hero/hero-img-laptop-black@2x.jpg);
     }
-}
+} 

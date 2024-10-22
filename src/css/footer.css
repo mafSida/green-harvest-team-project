@@ -10,7 +10,13 @@
 }
 
 .footer-wrap .logo-link {
+  margin-bottom: 26px;
+}
+
+.icon-logo-project {
+  color: #FBFBFB;
   margin-bottom: 16px;
+
 }
 
 .footer-wrap {
