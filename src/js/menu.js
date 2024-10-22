@@ -8,11 +8,19 @@
     modal: document.querySelector('[data-menu]'),
   };
 
-  refs.openMenuBtn.addEventListener('click', toggleModal);
-  refs.closeMenuBtn.addEventListener('click', toggleModal);
+  // refs.openMenuBtn.addEventListener('click', toggleModal);
+  // refs.closeMenuBtn.addEventListener('click', toggleModal);
 
-  function toggleModal() {
-    // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
-    refs.modal.classList.toggle('is-open');
-  }
+  // function toggleModal() {
+  //   // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
+  //   refs.modal.classList.toggle('is-open');
+  // }
+
+  refs.openMenuBtn.addEventListener('click', () => {
+    refs.modal.classList.add('is-open');
+  });
+
+  refs.closeMenuBtn.addEventListener('click', () => {
+    refs.modal.classList.remove('is-open');
+  });
 })();
