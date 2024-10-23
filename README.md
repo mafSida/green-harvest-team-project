@@ -35,7 +35,7 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 ## Performance Results
 
 ### Mobile:
-![Mobile Performance](../src/img/screenshots/mobile-performance.png)
+![Mobile Performance](https://github.com/mafSida/green-harvest-team-project/blob/main/src/img/screenshots/mobile-performance.png)
 
 - Efficiency: 91
 - Accessibility: 96
@@ -43,7 +43,7 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 - Optimum search systems: 91
 
 ### Desktop:
-![Desktop Performance](../src/img/screenshots/desktop-performance.png)
+![Desktop Performance](https://github.com/mafSida/green-harvest-team-project/blob/main/src/img/screenshots/desktop-performance.png)
 
 - Efficiency: 99
 - Accessibility: 96
