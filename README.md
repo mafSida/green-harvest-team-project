@@ -52,23 +52,33 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 
 ## Contributors
 
-- **Daiana Kutasevych**: Team Lead, implemented lazy loading, screen reader support, and meta tags. Optimized performance and accessibility. Managed the project structure, reviews, and provided feedback to the team.
-  
-- **Yevheniia Tishakova**: Scrum Master, responsible for team coordination, organizing daily meetings, overseeing project progress, and presenting the project. Developed the "Adv" section.
-  
-- **Diiana Fedosiienko**: Developed the "Header" section, including the mobile and tablet menu.
-  
-- **Semen Gerasymuik**: Implemented scrolling animations across the website, provided support across sections, and worked on both JS functionality and fixing broken code. Developed the "Your Order" section.
-  
-- **Oleksandr Kostyuchenko**: Developed the "Hero" section. A high school student who demonstrated strong initiative and responsibility despite his young age.
-  
-- **Oleksandr Popov**: Developed the "How it Works" section, favicon, and reviewed and adjusted general styles for the project.
-  
-- **Yuliia Sheremeta**: Developed the "Vegetables" section.
-  
-- **Anna Vois**: Developed the "Reviews" section.
-  
-- **Elisa Osadchuk**: Developed the "Footer" section, with assistance from the Team Lead and Semen Gerasymuik.
+- **Daiana Kutasevych**: Team Lead
+  - Responsible for project setup, code review, optimization, lazy loading implementation, SEO, and ensuring screen reader accessibility. Managed the overall project structure, provided feedback to the team, and ensured timely delivery of tasks.
+
+- **Yevheniia Tishakova**: Scrum Master
+  - Organized daily stand-ups, maintained task tracking, and managed team dynamics. Developed the 'Advertisement' section and led the project presentation, ensuring effective communication within the team.
+
+- **Diiana Fedosiienko**: Web Developer
+  - Developed the 'Header' section, including the navigation structure and overall layout. Collaborated with the team to ensure mobile responsiveness and usability.
+
+- **Semen Herasymiuk**: Web Developer
+  - Implemented scroll animations across the website and provided support in various sections. Worked on JavaScript functionality, fixed broken code, and developed the 'Your Order' section.
+
+- **Oleksandr Kostyuchenko**: Web Developer
+  - Developed the 'Hero' section. A high school student who demonstrated strong initiative and responsibility despite his young age.
+
+- **Oleksandr Popov**: Web Developer
+  - Developed the 'How it Works' section, added the favicon to the website, and reviewed and adjusted general styles for the project.
+
+- **Yuliia Sheremeta**: Web Developer
+  - Developed the 'Vegetables' section, ensuring the presentation and accessibility of content related to the vegetable offerings.
+
+- **Anna Vois**: Web Developer
+  - Developed the 'Reviews' section, gathering and displaying customer feedback effectively.
+
+- **Olesandra Matvieveva**: Web Developer
+  - Created the mobile menu for the header, ensuring a seamless user experience on mobile devices. Worked collaboratively with Diiana on the header's overall functionality and responsiveness.
+
 
 ## Acknowledgments
 
