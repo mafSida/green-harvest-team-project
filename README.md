@@ -110,6 +110,31 @@ Now you have a personal project repository with the file structure and folders f
 - Add images to the `src/img` folder. The build tool will optimize them, but only when deploying the production version of the project. This process happens in the cloud to avoid loading your computer since it can take a long time on weaker machines.
 
 ### Deployment
-The production version of the project will be automatically built and deployed to GitHub Pages, in the `gh-pages` branch, every time the `main` branch is updated. For example, after a direct push or an accepted pull request. To do this, you need to change the `--base=/<REPO>/` value in the `package.json` file for the `build` command, replacing `<REPO>` with the name of your repository, like so:
-```json
-"build": "vite build --base=/<REPO>/",
+The production version of the project will be automatically built and deployed to GitHub Pages in the `gh-pages` branch every time the `main` branch is updated. For example, this occurs after a direct push or an accepted pull request. 
+
+To enable this, you need to change the `--base` value in the `package.json` file for the `build` command. Replace `<REPO>` with the name of your repository like this:
+
+`"build": "vite build --base=/<REPO>/"`
+
+Next, navigate to the GitHub repository settings (Settings > Pages) and set it to serve the production version of the files from the `/root` folder of the `gh-pages` branch if it hasn’t been done automatically.
+
+### Status of Deployment
+The status of the deployment of the latest commit is displayed with an icon next to its identifier.
+
+- Yellow color - the project is being built and deployed.
+- Green color - the deployment was successful.
+- Red color - an error occurred during linting, building, or deploying.
+
+More detailed information about the status can be seen by clicking on the icon and, in the pop-up window, going to the link "Details".
+
+### Live Page
+After a while, usually a few minutes, the live page can be viewed at the address specified on the Settings > Pages tab in the repository settings. For example, here is the link to the live version of this repository:
+
+https://your-github-pages-link.
+
+If a blank page opens, make sure there are no errors related to incorrect paths to CSS and JS files (404) in the Console tab. Most likely, you have the wrong value for the `--base` flag for the build command in the `package.json` file.
+
+### How it Works
+After each push to the main branch of the GitHub repository, a special script (GitHub Action) from the `.github/workflows/deploy.yml` file is triggered. All repository files are copied to the server, where the project is initialized and undergoes linting and building before deployment. If all steps are successful, the built production version of the project files is sent to the `gh-pages` branch. Otherwise, the execution log will indicate what went wrong.
+
+
