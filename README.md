@@ -33,3 +33,21 @@ Our team is named **beHealthy**, and we would like to thank our project mentor, 
 - Optimized for speed and SEO
 - Meta tags for search engines
 - Deployed using Vite and GitHub Pages
+
+## Performance Results
+
+### Mobile:
+![Mobile Performance](./src/img/screenshots/mobile-performance.png)
+
+- Efficiency: 91
+- Accessibility: 96
+- Optimal methods: 100
+- Optimum search systems: 91
+
+### Desktop:
+![Desktop Performance](./src/img/screenshots/desktop-performance.png)
+
+- Efficiency: 99
+- Accessibility: 96
+- Optimal methods: 100
+- Optimum search systems: 91
