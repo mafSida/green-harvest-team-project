@@ -49,8 +49,8 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 - Accessibility: 96
 - Optimal methods: 100
 - Optimum search systems: 91
-  
-- ## Contributors
+
+## Contributors
 
 - **Daiana Kutasevych**: Team Lead, implemented lazy loading, screen reader support, and meta tags. Optimized performance and accessibility. Managed the project structure, reviews, and provided feedback to the team.
   
