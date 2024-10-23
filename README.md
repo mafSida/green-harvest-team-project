@@ -73,3 +73,25 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 ## Acknowledgments
 
 Special thanks to our project mentor, Daria Lyman, for prompt code reviews and clear instructions on revisions.
+
+## Setup and Usage
+
+This project was created using Vite. For more details and advanced configuration options, refer to the documentation.
+
+### Creating a Repository from a Template
+Use this GoIT organization repository as a template to create your project repository. Click on the "Use this template" button and select the "Create a new repository" option.
+
+1. On the next page, fill in the repository name, ensure it is public, and then click the "Create repository from template" button.
+
+2. After the repository is created, navigate to the repository settings under Settings > Actions > General.
+
+3. Scroll to the bottom of the page, in the "Workflow permissions" section, select the "Read and write permissions" option and check the box. This is necessary for automating the deployment process.
+
+Now you have a personal project repository with the file structure and folders from the template repository. Work with it like any other personal repository: clone it to your computer, write code, commit changes, and push them to GitHub.
+
+### Preparing to Work
+1. Ensure that you have the LTS version of Node.js installed on your computer. Download and install it if necessary.
+   
+2. Install the basic dependencies of the project in the terminal using the command:
+   ```bash
+   npm install
