@@ -35,7 +35,7 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 ## Performance Results
 
 ### Mobile:
-![Mobile Performance](./src/img/screenshots/mobile-performance.png)
+![Mobile Performance](src/img/screenshots/mobile-performance.png)
 
 - Efficiency: 91
 - Accessibility: 96
@@ -43,13 +43,13 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 - Optimum search systems: 91
 
 ### Desktop:
-![Desktop Performance](./src/img/screenshots/desktop-performance.png)
+![Desktop Performance](src/img/screenshots/desktop-performance.png)
 
 - Efficiency: 99
 - Accessibility: 96
 - Optimal methods: 100
 - Optimum search systems: 91
-
+- 
 - ## Contributors
 
 - **Daiana Kutasevych**: Team Lead, implemented lazy loading, screen reader support, and meta tags. Optimized performance and accessibility. Managed the project structure, reviews, and provided feedback to the team.
