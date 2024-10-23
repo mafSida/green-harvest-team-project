@@ -3,13 +3,11 @@
 A responsive website promoting a healthy lifestyle, built with HTML, CSS, JavaScript, and Vite.
 
 ## Overview
-This project is part of the GoIT Full Stack Developer course, created by our team as a collaborative assignment. It focuses on creating a responsive, accessible website with modern UI/UX, optimized images, and mobile-first design. The project includes the implementation of screen reader accessibility, lazy loading for images, and the use of Vite as a build tool.
+This project is part of the GoIT Full Stack Developer course, created by our team **beHealthy** as a collaborative assignment. It focuses on creating a responsive, accessible website with modern UI/UX, optimized images, and mobile-first design. The project includes the implementation of screen reader accessibility, lazy loading for images, and the use of Vite as a build tool.
 
 The design mockup used for this project can be found [here](https://www.figma.com/design/ObvvH4JjCuw8gBzYmiLIII).
 
 The website is deployed on GitHub Pages and can be viewed [here](https://mafsida.github.io/green-harvest-team-project/).
-
-Our team is named **beHealthy**, and we would like to thank our project mentor, **Daria Lyman**, for her prompt code reviews and clear instructions for adjustments.
 
 ## Table of Contents
 - [Technologies](#technologies)
@@ -51,3 +49,27 @@ Our team is named **beHealthy**, and we would like to thank our project mentor, 
 - Accessibility: 96
 - Optimal methods: 100
 - Optimum search systems: 91
+
+- ## Contributors
+
+- **Daiana Kutasevych**: Team Lead, implemented lazy loading, screen reader support, and meta tags. Optimized performance and accessibility. Managed the project structure, reviews, and provided feedback to the team.
+  
+- **Yevheniia Tishakova**: Scrum Master, responsible for team coordination, organizing daily meetings, overseeing project progress, and presenting the project. Developed the "Adv" section.
+  
+- **Diiana Fedosiienko**: Developed the "Header" section, including the mobile and tablet menu.
+  
+- **Semen Gerasymuik**: Implemented scrolling animations across the website, provided support across sections, and worked on both JS functionality and fixing broken code. Developed the "Your Order" section.
+  
+- **Oleksandr Kostyuchenko**: Developed the "Hero" section. A high school student who demonstrated strong initiative and responsibility despite his young age.
+  
+- **Oleksandr Popov**: Developed the "How it Works" section, favicon, and reviewed and adjusted general styles for the project.
+  
+- **Yuliia Sheremeta**: Developed the "Vegetables" section.
+  
+- **Anna Vois**: Developed the "Reviews" section.
+  
+- **Elisa Osadchuk**: Developed the "Footer" section, with assistance from the Team Lead and Semen Gerasymuik.
+
+## Acknowledgments
+
+Special thanks to our project mentor, Daria Lyman, for prompt code reviews and clear instructions on revisions.
