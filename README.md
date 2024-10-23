@@ -137,4 +137,16 @@ If a blank page opens, make sure there are no errors related to incorrect paths 
 ### How it Works
 After each push to the main branch of the GitHub repository, a special script (GitHub Action) from the `.github/workflows/deploy.yml` file is triggered. All repository files are copied to the server, where the project is initialized and undergoes linting and building before deployment. If all steps are successful, the built production version of the project files is sent to the `gh-pages` branch. Otherwise, the execution log will indicate what went wrong.
 
+## Project Management
+The project was managed using the Agile methodology, with daily stand-up meetings to discuss progress and challenges. Tasks were tracked in Trello, allowing for effective collaboration and organization.
+
+## Screenshots
+
+### Mobile View
+![Mobile Screenshot 1](https://github.com/mafSida/green-harvest-team-project/blob/main/src/img/screenshots/mobile-screenshot-1.png)
+![Mobile Screenshot 2](https://github.com/mafSida/green-harvest-team-project/blob/main/src/img/screenshots/mobile-screenshot-2.png)
+
+### Desktop View
+![Desktop Screenshot 1](https://github.com/mafSida/green-harvest-team-project/blob/main/src/img/screenshots/desktop-screenshot-1.png)
+![Desktop Screenshot 2](https://github.com/mafSida/green-harvest-team-project/blob/main/src/img/screenshots/desktop-screenshot-2.png)
 
