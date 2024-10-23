@@ -62,7 +62,7 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
   - Developed the 'Header' section, including the navigation structure and overall layout. Collaborated with the team to ensure mobile responsiveness and usability.
 
 - **Semen Herasymiuk**: Web Developer
-  - Implemented scroll animations across the website and provided support in various sections. Worked on JavaScript functionality, fixed broken code, and developed the 'Your Order' section.
+  - Fully developed the 'Your Order' section, implemented scroll animations across the website, and provided support in various sections. Worked on JavaScript functionality and fixed broken code.
 
 - **Oleksandr Kostyuchenko**: Web Developer
   - Developed the 'Hero' section. A high school student who demonstrated strong initiative and responsibility despite his young age.
@@ -78,6 +78,7 @@ The website is deployed on GitHub Pages and can be viewed [here](https://mafsida
 
 - **Olesandra Matvieveva**: Web Developer
   - Created the mobile menu for the header, ensuring a seamless user experience on mobile devices. Worked collaboratively with Diiana on the header's overall functionality and responsiveness.
+
 
 
 ## Acknowledgments
