@@ -95,3 +95,21 @@ Now you have a personal project repository with the file structure and folders f
 2. Install the basic dependencies of the project in the terminal using the command:
    ```bash
    npm install
+
+3. Start the development mode by executing the command in the terminal:
+   ```bash
+   npm run dev
+
+4. Open your browser and go to `http://localhost:5173`. This page will automatically reload after you save changes to project files.
+
+### Files and Folders
+- The HTML files for the page components should be located in the `src/partials` folder and imported into the `index.html` file. For example, create a file for the header in the `partials` folder and import it into `index.html`.
+  
+- The CSS files should be in the `src/css` folder and imported into the HTML files of the pages. For example, the CSS file for `index.html` is named `index.css`.
+  
+- Add images to the `src/img` folder. The build tool will optimize them, but only when deploying the production version of the project. This process happens in the cloud to avoid loading your computer since it can take a long time on weaker machines.
+
+### Deployment
+The production version of the project will be automatically built and deployed to GitHub Pages, in the `gh-pages` branch, every time the `main` branch is updated. For example, after a direct push or an accepted pull request. To do this, you need to change the `--base=/<REPO>/` value in the `package.json` file for the `build` command, replacing `<REPO>` with the name of your repository, like so:
+```json
+"build": "vite build --base=/<REPO>/",
