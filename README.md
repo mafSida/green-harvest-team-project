@@ -7,7 +7,7 @@ This project is part of the GoIT Full Stack Developer course, created by our tea
 
 The design mockup used for this project can be found [here](https://www.figma.com/design/ObvvH4JjCuw8gBzYmiLIII).
 
-The website is deployed on GitHub Pages and can be viewed [here]([https://your-github-pages-link](https://mafsida.github.io/green-harvest-team-project/)).
+The website is deployed on GitHub Pages and can be viewed [here](https://your-github-pages-link](https://mafsida.github.io/green-harvest-team-project/).
 
 Our team is named **beHealthy**, and we would like to thank our project mentor, **Daria Lyman**, for her prompt code reviews and clear instructions for adjustments.
 
